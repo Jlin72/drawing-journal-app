@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/Jlin72/Drawing-Journal-Site#readme",
   "dependencies": {
-    "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.1.3",
-    "concurrently": "^7.1.0",
     "express": "^4.18.1",
-    "mongoose": "^6.3.3",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
     "nodemon": "^2.0.16"
   }
 }
