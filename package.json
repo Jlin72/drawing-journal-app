@@ -1,0 +1,33 @@
+{
+  "name": "drawing-journal-site",
+  "version": "1.0.0",
+  "description": "A jouranling site for me to journal my progress as I learn how to draw",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "npm run start:dev",
+    "start:dev": "concurrently \"nodemon 'public/*'\" \"npm run client\"",
+    "client": "cd public && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jlin72/Drawing-Journal-Site.git"
+  },
+  "keywords": [
+    "Drawing",
+    "Journal",
+    "Website"
+  ],
+  "author": "JLin72",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jlin72/Drawing-Journal-Site/issues"
+  },
+  "homepage": "https://github.com/Jlin72/Drawing-Journal-Site#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
